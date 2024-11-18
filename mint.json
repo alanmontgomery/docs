@@ -1,23 +1,23 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Dev Docs",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#3578e5",
+    "light": "#3578e5",
+    "dark": "#3578e5",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#3578e5",
+      "to": "#3578e5"
     }
   },
   "topbarLinks": [
     {
-      "name": "Support",
+      "name": "Contact Dev Team",
       "url": "mailto:hi@mintlify.com"
     }
   ],
@@ -33,14 +33,14 @@
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "Github",
+      "icon": "github",
+      "url": "https://github.com/anthurium-dev/worktree"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "name": "Product",
+      "icon": "table-columns",
+      "url": "https://worktree.anthurium.dev"
     },
     {
       "name": "Blog",
@@ -51,11 +51,7 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
+      "pages": ["introduction", "quickstart", "development"]
     },
     {
       "group": "Essentials",
@@ -70,9 +66,7 @@
     },
     {
       "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
+      "pages": ["api-reference/introduction"]
     },
     {
       "group": "Endpoint Examples",
